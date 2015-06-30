@@ -1,5 +1,11 @@
-puts "WHAT D\'YA WANT!?"
+while true
+	puts "WHAT D\'YA WANT!?"
+	request = gets.chomp
 
-a = gets.chomp
+if request == 'stop'
+		break
+	end
 
-puts "Whaddya mean" + a + "??!! YOU'RE FIRED!!"
+	puts "Whaddya mean you want " + request + "??!! YOU'RE FIRED!!"
+
+end
