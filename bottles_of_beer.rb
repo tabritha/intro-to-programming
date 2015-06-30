@@ -1,3 +1,4 @@
+#Writes the lyrics to 99 bottles of beer on the wall
 bottles = 99
 
 while true
